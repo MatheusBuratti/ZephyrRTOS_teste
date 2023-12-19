@@ -1,0 +1,23 @@
+{
+    // Hush CMake
+    "cmake.configureOnOpen": false,
+
+    // IntelliSense
+    "C_Cpp.default.compilerPath": "${userHome}/zephyr-sdk-0.16.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+
+    "files.associations": {
+        "sys_clock.h": "c",
+        "printk.h": "c",
+        "shell.h": "c",
+        "util.h": "c",
+        "random": "c",
+        "adc.h": "c",
+        "devicetree.h": "c",
+        "kernel.h": "c",
+        "cmath": "c",
+        "device.h": "c",
+        "inttypes.h": "c"
+    }
+
+}
